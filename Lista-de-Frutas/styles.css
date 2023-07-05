@@ -1,0 +1,18 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    background-color: papayawhip;
+    color: gray;
+}
+
+ul > li {
+    cursor: pointer;
+    list-style: none;
+    list-style-type: "⬜" ;
+    padding-inline-start: 1ch;
+}
+
+.checked{
+    text-decoration: line-through;
+    list-style-type:  "✅" ;
+
+}
